@@ -1,0 +1,87 @@
+*{
+	border: 0;
+	margin: 0;
+}
+body,html{
+	height: 100%;
+	background-color: black;
+}
+
+.div0{
+	height: 10%;
+	border: 1px solid white;
+}
+.div3{
+	height: 15%;
+	border: 1px solid #e6e6e6;
+	background-color: #f6f6f6;
+}
+.div12{
+	height: 75%;
+	background-color: #f6f6f6;
+}
+
+nav ul li a{
+	display: inline;
+	text-decoration: none;
+	float: left;
+	font-weight: bold;
+	color: #02a7f0;
+	font-size: 0.5cm;
+	padding: 20px;
+}
+nav ul li a:hover{
+	display: block;
+	background-color: gainsboro;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul{
+	display: block;
+	text-align: center;
+	padding-top: 5px;
+}
+#hyperlinks{
+	margin-left: 50%;
+}
+header{
+	font-weight: bold;
+	margin-left: 50px;
+	float: left;
+	display: block;
+	font-size: 1cm;
+	color: white;
+}
+
+div>ul li a{
+	text-decoration: none;
+	color: #e6e6e6;
+}
+div>ul{
+	list-style: none;
+
+}
+div>ul li{
+	border: 1px solid #e6e6e6;
+	display: inline;
+	float: left;
+	margin-left: 200px;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 15px;
+	font-size: 0.5em;
+	background-color: white;
+	
+}
+span{
+	padding-left: 25%;
+	font-size: 0.5cm;
+	color: black;
+}
+div>ul :hover{
+	background-color: #02a7f0;
+}

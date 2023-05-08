@@ -1,0 +1,135 @@
+* {
+	border: 0;
+	margin: 0;
+}
+
+body,
+html {
+	height: 100%;
+	background-color: black;
+}
+
+.div0 {
+	height: 10%;
+	border: 1px solid white;
+}
+
+.div1 {
+	/* border: 1px solid white; */
+	float: left;
+	width: 30%;
+}
+
+.div2 {
+	padding-bottom: 105px;
+}
+
+.div12 {
+	height: 90%;
+}
+
+header {
+	font-weight: bold;
+	margin-left: 50px;
+	float: left;
+	display: block;
+	font-size: 1cm;
+	color: white;
+}
+
+nav ul li a {
+	display: inline;
+	text-decoration: none;
+	float: left;
+	padding: 20px;
+	font-weight: bold;
+	color: #02a7f0;
+	font-size: 0.5cm;
+}
+nav ul li a:visited{
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+nav ul li a:hover,
+nav ul li a:active {
+	display: block;
+	background-color: gainsboro;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+nav ul li a:link {
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+/* nav ul li a.active {
+    background-color: gainsboro;
+    color: white;
+}
+ */
+nav ul li {
+	list-style: none;
+}
+
+nav ul {
+	display: block;
+	text-align: center;
+	padding-top: 5px;
+}
+
+nav {
+	margin-left: 50%;
+}
+
+div>img {
+	padding-left: 300px;
+}
+
+span {
+	margin-left: 450px;
+	color: white;
+}
+
+.tj {
+
+	border: 1px blue solid;
+	margin-left: 485px;
+	float: left;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 10px;
+	color: white;
+	background-color: #02a7f0;
+	border-radius: 15px;
+}
+
+div>a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	padding-top: 260px;
+	padding-bottom: 320px;
+	padding-left: 110px;
+	color: #02a7f0;
+}
+
+/* 清除浮动 */
+/* .clearfix:after {
+	visibility: hidden;
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0
+}
+
+.clearfix {
+	*zoom: 1
+} */
